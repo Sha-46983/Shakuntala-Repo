@@ -3,4 +3,9 @@ h1{
 }
 p{
     color:aqua;
+    text-decoration: underline;
+}
+div{
+    color: aqua;
+    text-decoration: underline;
 }
