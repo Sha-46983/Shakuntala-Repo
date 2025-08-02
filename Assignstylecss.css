@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+ }
+ #mainTopic{
+    color: red;
+ }
+ h1 ,h3 , h5 {
+    font-style : Georgia ;
+ }
+.para {
+    background-color: cornflowerblue;
+    color: white;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
