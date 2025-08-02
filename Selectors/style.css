@@ -9,3 +9,7 @@ div{
     color: aqua;
     text-decoration: underline;
 }
+/* descendent selector  */
+p a{
+  color: purple;
+}

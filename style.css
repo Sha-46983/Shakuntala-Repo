@@ -2,10 +2,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: blue; */
 }
-/* h3{
+h3{
     color: purple;
-} */
-h1,h3{
+}
+h3{
     color:#b92b27;
 }
 #login{
@@ -18,4 +18,47 @@ h1,h3{
 .upvote{
     background-color: green;
     color: white;
+}
+/* descendent selectors */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+/* multi level descendent selectors */
+nav ul li a {
+    color: hotpink;
+}
+/* siblining  combinators  */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: blue;
+    color: black;
+}
+/* child  combinator */
+div > input{
+ background-color: bisque;
+}
+/* attribute selectors */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}    
+input[type=]{
+    background-color: ghostwhite;
+}
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: yellow;
+}
+h3{
+    background-color: chocolate;
 }
