@@ -59,6 +59,21 @@ p::first-line{
 p::selection{
     background-color: yellow;
 }
-h3{
+h3:hover{
     background-color: chocolate;
+    text-decoration: overline;
+}
+button:active{
+    background-color: pink ;
+}
+p:active{
+    font-weight: bold;
+    color: Green;
+}
+input[type="radio"]:checked +label {
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(3n){
+    background-color: blanchedalmond;
 }
