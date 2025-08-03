@@ -1,0 +1,13 @@
+div{
+    
+    background-color: pink ;
+}
+h2{
+    display: inline;
+}
+button{
+   color: aqua;
+   background-color: azure;
+   padding-left: 25px;
+   padding-right: 25px;;
+}
