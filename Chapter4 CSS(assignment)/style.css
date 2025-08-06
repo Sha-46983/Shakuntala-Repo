@@ -1,5 +1,5 @@
 /* /* Qs1. Add a 2s transition on box1 for width changes.
-       It should have 'ease-in' speed curve & 0.5s delay  */
+       /* It should have 'ease-in' speed curve & 0.5s delay   */
 
 #box1 {
   width: 100px;
@@ -21,7 +21,7 @@
   height: 100px;
   background: red;
   border-radius:15px;
-  transform: translate(200px ,200px) rotate(90deg); 
+  transform: translate 200px ,200px ,rotate(90deg); 
 }
 
 /* Qs3. Using transform, skew box3 20deg along the x axis.*/
@@ -31,7 +31,7 @@
   height: 100px;
   background: lightblue;
   border-radius: 15px;
-  transform:skewX(20deg);
+  transform:skew X(20deg);
 }
 
 /* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
@@ -51,7 +51,7 @@
   width: 200px;
   height: 200px;
   background: pink;
-  background-image:url("mypic.JPG");
+  background-image: url(mypic.JPG);
   background-size: cover;
   opacity: 50%;
 
@@ -68,7 +68,7 @@
   padding:1em;
 
 } 
- #container{
+ #container {
   height: 600px;
   width: 60%;
   background-color: azure;
@@ -77,15 +77,15 @@
   display: flex;
   flex-direction:row;
   justify-content: flex-start;
-   flex-wrap: wrap ; */
-   align-items: baseline; */
+  flex-wrap: wrap ; 
+  align-items: baseline; 
   align-content: flex-start;
 } 
 
  #org {
    align-self:flex-start;
-    flex-basis: 50px; */
-    flex-grow: 1; */
+    flex-basis: 50px; 
+    flex-grow: 1; 
     flex-shrink: 1;
 } 
 
@@ -98,16 +98,17 @@ h1{
   width: 300px;
   color: white;
   text-align: center;
-  font-size: 1.5em; */
-
+  font-size: 1.5em; 
 }
- #blue {
+ 
+#blue {
   flex-basis: 400px;
-   flex-grow: 3;
-  max-width: 400px; */
-   flex-shrink: 3; */
+  flex-grow: 3;
+  max-width: 400px;
+  flex-shrink: 3; 
  } 
-  #container1 {
+  
+ #container1 {
 
     height:50px;
     width: 900px;
@@ -118,8 +119,9 @@ h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
- } */ 
- .box{
+ }  
+ 
+ .box {
     height: 50px;
     width: 80px;
     border: 2px solid black;
@@ -127,8 +129,8 @@ h1{
     border-radius: 10px;
     font-size: 50px;
     text-align: center;
+ } 
 
- } */
  #navbar{
 
     height: 50px;
@@ -138,8 +140,9 @@ h1{
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
-    align-content: center; */
+    align-content: center; 
   }
+  
   .option{
     height: 50px;
     width: 80px;
@@ -148,6 +151,4 @@ h1{
     font-size: 24px;
     line-height: 50px;
  } 
-
-
 
