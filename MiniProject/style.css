@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: black;
   color: white;
@@ -5,6 +6,8 @@ body {
 
 
 
+=======
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
 *{
     margin: 0;
     padding: 0;
@@ -28,10 +31,17 @@ body {
 }
 .sidebar_menu{
     position: fixed;
+<<<<<<< HEAD
     left: -350px;
     height: 100vh;
     width: 300px;
     background-color: rgba(255,255,255, 0.1) ;
+=======
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255,255, 0.1) ;
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
     box-shadow: 0 0 6px rgba(255, 255,255, 0.5) ;
     transition: all 0.2s linear;
 
@@ -40,7 +50,11 @@ body {
     position: absolute;
     width: 100%;
     line-height: 60px;
+<<<<<<< HEAD
     box-shadow: 0 0 6px rgba(255, 255,255, 0.5) ;
+=======
+     box-shadow: 0 0 6px rgba(255, 255,255, 0.5) ;
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
      height: 60px;
 }
 .sidebar_menu .logo  a {
@@ -63,7 +77,11 @@ body {
     line-height: 60px;
     position: absolute;
     left:275px;
+<<<<<<< HEAD
     opacity: 0;
+=======
+    opacity: 1;
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
     cursor: pointer;
 }
 .sidebar_menu .menu li {
@@ -79,11 +97,17 @@ body {
     padding-right: 8px ;
 }
 .sidebar_menu .social_media {
+<<<<<<< HEAD
     color: white;
     opacity: 0.5;
    position: absolute;
     left:25%;
     bottom: 100px;
+=======
+   position: absolute;
+    left: 25%;
+    bottom: 50px;
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
     padding: 0 5px;
 
 }
@@ -116,4 +140,8 @@ body {
 }
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
+<<<<<<< HEAD
+=======
+    z-index:9999;
+>>>>>>> e548629d38863387c4f87e9bd3449fc544867654
 }
